@@ -1,0 +1,16 @@
+.btn {
+  transition: all 0.3 ease-in-out;
+  background-color: #057;
+  height: 40px;
+  width: 80px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 2px 0 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #750;
+}
