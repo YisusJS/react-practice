@@ -1,11 +1,7 @@
 import './Button.css';
 
-const Button = ({ children, ...rest }) => {
-  return (
-    <button {...rest} className="button">
-      {children}
-    </button>
-  );
+const Button = ({ children }) => {
+  return <button className="button">{children}</button>;
 };
 
 export default Button;

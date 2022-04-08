@@ -10,10 +10,6 @@ html {
   background-color: #eee;
 }
 
-:root {
-  --red: red;
-}
-
 ul {
   list-style: none;
 }

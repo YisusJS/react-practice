@@ -16,23 +16,23 @@ function App() {
     setUsers([...users, newUser]);
   };
 
-  console.log(users)
-
   // Retornamos JSX
   return (
     <Container>
       <Card>
         <UserForm submit={handleAddUsers} />
       </Card>
-      <Card>
-        <ul>
-          {users.map((user) => (
-            <li
-              key={user.email}
-            >{`${user.name} ${user.lastname}: ${user.email}`}</li>
-          ))}
-        </ul>
-      </Card>
+      {users.length ? (
+        <Card>
+          <ul>
+            {users.map((user) => (
+              <li
+                key={user.email}
+              >{`${user.name} ${user.lastname}: ${user.email}`}</li>
+            ))}
+          </ul>
+        </Card>
+      ) : null}
     </Container>
   );
 }
