@@ -55,7 +55,6 @@ const App = () => {
               <p>
                 {checkDescriptions(photo.description, photo.alt_description)}
               </p>
-              <p></p>
             </article>
           ))}
         </div>
