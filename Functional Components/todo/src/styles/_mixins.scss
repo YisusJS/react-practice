@@ -1,0 +1,19 @@
+// Import variables
+@use 'variables.scss';
+
+// Examples
+@mixin font($font, $size, $weight, $line_height, $color) {
+  font-family: $font;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line_height;
+  color: $color;
+}
+
+@mixin boxShadow($type) {
+  @if $type == 'black' {
+    box-shadow: variables.$black-shadow;
+  } @else {
+    box-shadow: variables.$white-shadow;
+  }
+}
