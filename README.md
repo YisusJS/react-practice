@@ -6,4 +6,4 @@ This repository contains my practices with React
 
 3. [ Formik ](https://chimerical-creponne-53546d.netlify.app/) : Form using Formik
 
-2. [ Find image ](https://melodic-lolly-29de2e.netlify.app/) : Find images usin unsplash
+2. [ Find image ](https://melodic-lolly-29de2e.netlify.app/) : Find images using unsplash
