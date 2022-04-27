@@ -5,12 +5,10 @@ class App extends Component {
   // Creamos nuestro estado del componente
   state = {
     productos: [
-      { name: 'Tomate', price: 500, img: './src/img/tomate.jpg' },
-      { name: 'Lechuga', price: 1000, img: './src/img/lechuga.jpg' },
-      { name: 'Arbeja', price: 1500, img: './src/img/arbeja.jpg' },
-      { name: 'Plátano', price: 2000, img: './src/img/platano.png' },
-      { name: 'Maíz', price: 2500, img: './src/img/maiz.png' },
-      { name: 'Aguacate', price: 3000, img: './src/img/aguacate.png' },
+      { name: 'Tomate', price: 500, img: 'https://agroactivocol.com/wp-content/uploads/2020/07/Tomate-Lancero.jpg' },
+      { name: 'Lechuga', price: 1000, img: 'https://okdiario.com/img/recetas/2016/09/18/lechuga-boston.jpg' },
+      { name: 'Arveja', price: 1500, img: 'https://surtifruver.com/wp-content/uploads/2017/04/las-arvejas-1.jpg' },
+      { name: 'Maíz', price: 2500, img: 'https://i.blogs.es/c5c0b8/maices-1/1366_2000.jpg' },
     ],
     carro: [],
     esCarroVisible: false,
