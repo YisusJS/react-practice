@@ -42,7 +42,7 @@ const App = () => {
           dispatch({ type: 'decrement' });
         }}
       >
-        Decement
+        Decrement
       </button>
       <button
         onClick={() => {

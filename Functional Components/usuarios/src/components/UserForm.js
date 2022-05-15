@@ -23,7 +23,7 @@ const UserForm = ({ submit }) => {
   return (
     <form onSubmit={handleSubmit}>
       <Input
-        placeholder="Your name"
+        placeholder="Your  name"
         label={'Nombre'}
         name={'name'}
         value={form.name}

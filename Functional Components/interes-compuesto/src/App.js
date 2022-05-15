@@ -55,7 +55,7 @@ function App() {
               .min(0, 'El valor mínimo es de 0')
               .max(1, 'El valor máximo es 1'),
           })}
-          // Pasamos la función que manipulará la data del formulario
+          // Pasamos la función que manipulará la data del formulario, se envía un objeto con los valores del formulario por defecto
           onSubmit={handleSubmit}
         >
           <Form>

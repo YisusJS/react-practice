@@ -40,6 +40,7 @@ const validate = (values) => {
 function App() {
   return (
     <Formik
+      // Deben coincidir con los name de los inputs
       initialValues={{
         firstName: '',
         lastname: '',

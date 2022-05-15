@@ -4,6 +4,7 @@ import { useRef } from 'react';
 function App() {
   const input = useRef(null);
   const file = useRef(null);
+
   const submit = () => {
     const form = new FormData();
     form.append('archivo', file.current.files[0]);
